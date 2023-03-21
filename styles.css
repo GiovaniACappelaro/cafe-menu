@@ -14,3 +14,16 @@ body{
     margin-right: auto;
 }
 
+.flavor{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%; /*(RESPONSIVO) preço tem menos caracteres, width menor pra quando se aproximarem*/
+}
+
+.item p {
+    display: inline-block ;
+}
