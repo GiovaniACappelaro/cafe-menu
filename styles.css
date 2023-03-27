@@ -1,11 +1,24 @@
 h1, h2, p{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif; /*modificado*/
+    /*font-family: Georgia, 'Times New Roman', Times, serif; /*modificado*/
+}
+
+h1, h2 {
+    font-family: Impact, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
 }
 
 body{
     /*background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);*/
     background-image: url(images/coffee_beans.jpg);
+    font-family: Georgia, sans-serif, 'Times New Roman', Times, serif;
 }
 
 .menu{
@@ -14,6 +27,7 @@ body{
     margin-left: auto ;
     margin-right: auto;
     padding: 20px;
+    max-width: 500px;
 }
 
 .flavor, .dessert{
@@ -28,4 +42,8 @@ body{
 
 .item p {
     display: inline-block ;
+}
+
+.established{
+    font-style: italic;
 }
