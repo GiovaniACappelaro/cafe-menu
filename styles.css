@@ -19,6 +19,7 @@ body{
     /*background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);*/
     background-image: url(images/coffee_beans.jpg);
     font-family: Georgia, sans-serif, 'Times New Roman', Times, serif;
+    padding: 20px;
 }
 
 .menu{
@@ -42,8 +43,16 @@ body{
 
 .item p {
     display: inline-block ;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .established{
     font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
 }
